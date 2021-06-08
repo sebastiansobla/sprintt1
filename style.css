@@ -1,0 +1,59 @@
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .line{
+     border: 3px solid  rgb(50, 1, 73)
+ }
+ .contenedor1{
+     padding: 60px 70px 40px 60px;
+     margin: 40px 40px 30px 40px;    
+     width:35%;
+     
+ }
+ .contenedor2{
+    padding: 40px 150px 150px 150px;
+    width:35%;
+  
+}
+.contenedor3{
+    padding: 10px 90px 10px 90px;
+    
+ 
+    
+}
+.cant{
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+  label{
+    font-size:20px;
+  }
+  .boton{
+    color: black;
+    background-color:red;
+    padding: 10px;
+  }
+  
+
+#numero{
+  color:black;
+}
+#valorcompra{color:black;}
+#valordescuent{color:black;}
+#total{
+    color:black;
+}
+
+body{
+    background: rgb(177, 177, 240);
+}
